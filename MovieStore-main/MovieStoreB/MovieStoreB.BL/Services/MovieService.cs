@@ -49,7 +49,7 @@ namespace MovieStoreB.BL.Services
             return _movieRepository.GetMoviesById(movieId.ToString());
         }
 
-        public void AddActor(string movieId, Actor actor)
+        public void AddActor(string movieId, Actor actor) 
         {
             if (string.IsNullOrEmpty(movieId) || actor == null) return;
 

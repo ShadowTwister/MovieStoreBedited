@@ -1,4 +1,4 @@
-using MovieStoreB.Models.Configurations;
+﻿using MovieStoreB.Models.Configurations;
 
 namespace MovieStoreB.ServiceExtensions
 {
