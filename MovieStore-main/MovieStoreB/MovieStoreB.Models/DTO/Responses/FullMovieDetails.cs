@@ -1,15 +1,17 @@
-﻿using MovieStoreB.Models.DTO;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using MovieStoreB.Models.DTO;
 
-namespace MovieStoreB.Models.Responses
+namespace MovieStoreB.Models.DTO.Responses
 {
     public class FullMovieDetails
     {
-        public int Id { get; set; }
-
-        public string Title { get; set; }
-
-        public int Year { get; set; }
+        public Movie Movie { get; set; }
 
         public List<Actor> Actors { get; set; }
+
     }
 }

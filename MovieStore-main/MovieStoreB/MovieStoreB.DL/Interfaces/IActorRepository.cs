@@ -1,9 +1,9 @@
-﻿﻿using MovieStoreB.Models.DTO;
+﻿using MovieStoreB.Models.DTO;
 
 namespace MovieStoreB.DL.Interfaces
 {
     public interface IActorRepository
     {
-        Actor? GetById(int id);
+        Actor? GetById(string id);
     }
 }
